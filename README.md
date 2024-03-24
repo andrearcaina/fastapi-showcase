@@ -27,3 +27,5 @@ $ source .venv/bin/activate # for linux
 ```
 
 4. You're done!
+
+Attend the actual event to follow along :P
