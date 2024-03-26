@@ -10,6 +10,11 @@ db = {
     "4": {"name": "Joseph", "age": 23, "major": "EE"},
 }
 
+# base
+@app.get("/")
+async def root():
+    return {"message": "Type /docs to see the swagger UI!"}
+
 # return entire database
 @app.get("/get/db")
 async def get_db():
