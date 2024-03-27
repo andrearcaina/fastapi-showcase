@@ -1,16 +1,19 @@
 from fastapi import FastAPI, HTTPException
 
+# This is the main file that will run the FastAPI server
+# app is responsible for handling all the routes and requests that come in through the server
 app = FastAPI()
 
 # in memory database with ID of people with name, age, and major
 db = {
     "1": {"name": "Mo", "age": 20, "major": "CS"},
-    "2": {"name": "Jack", "age": 21, "major": "CE"},
-    "3": {"name": "Andre", "age": 22, "major": "SE"},
-    "4": {"name": "Joseph", "age": 23, "major": "EE"},
+    "2": {"name": "Jack", "age": 20, "major": "CS"},
+    "3": {"name": "Andre", "age": 20, "major": "CS"},
+    "4": {"name": "Joseph", "age": 19, "major": "CS"},
+    "5": {"name": "Theo", "age": 20, "major": "EE"},
 }
 
-# base
+# base (optional) route
 @app.get("/")
 async def root():
     return {"message": "Type /docs to see the swagger UI!"}
