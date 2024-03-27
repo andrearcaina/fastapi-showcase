@@ -30,7 +30,15 @@ $ source .venv/bin/activate # for linux
 For an in-depth understanding of an API, take a look at the slides [here](https://docs.google.com/presentation/d/1My6xQ1N1SMr7_Jarb1AqsfqdDeZAGn6ZJDVrmIj_urU/edit?usp=sharing)
 
 # Shortcut
-If you want to shortcut everything, make sure you have at least step 3 done, and then clone this repository (assuming you have [git](https://git-scm.com/) installed)
-Then, run `uvicorn main:app --reload` to run the API.
+If you want to shortcut everything, make sure you have at least step 3 done, and then clone this repository (assuming you have [git](https://git-scm.com/) installed).
+1. Clone command -> `git clone https://github.com/andrearcaina/fastapi-tutorial.git`
+2. Then, run `uvicorn main:app --reload` to run the API.
 
 You're good to go!
+
+# Swagger UI
+Swagger UI: allows ease of access to testing API endpoints
+
+Swagger UI allows anyone — be it your development team or your end consumers — to visualize and interact with the API's resources without having any of the implementation logic in place.
+
+go to `localhost:8000/docs` or `127:0.0.1:8000/docs` to check out Swagger UI.
