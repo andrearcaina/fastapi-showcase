@@ -29,7 +29,8 @@ $ source .venv/bin/activate # for linux
 4. Create `main.py` just like in the repository, and run `uvicorn main:app --reload` in root directory.
 For an in-depth understanding of an API, take a look at the slides [here](https://docs.google.com/presentation/d/1My6xQ1N1SMr7_Jarb1AqsfqdDeZAGn6ZJDVrmIj_urU/edit?usp=sharing)
 
-5. If you want to shortcut everything, make sure you have at least step 3 done, and then clone this repository (assuming you have [git](https://git-scm.com/) installed)
+# Shortcut
+If you want to shortcut everything, make sure you have at least step 3 done, and then clone this repository (assuming you have [git](https://git-scm.com/) installed)
 Then, run `uvicorn main:app --reload` to run the API.
 
 You're good to go!
