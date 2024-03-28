@@ -32,7 +32,8 @@ For an in-depth understanding of an API, take a look at the slides [here](https:
 # Shortcut
 If you want to shortcut everything, make sure you have at least step 3 done, and then clone this repository (assuming you have [git](https://git-scm.com/) installed).
 1. Clone command -> `git clone https://github.com/andrearcaina/fastapi-tutorial.git`
-2. Then, run `uvicorn main:app --reload` to run the API.
+   - run `pip install -r requirements.txt` to install all dependencies required for this tutorial!
+3. Then, run `uvicorn main:app --reload` to run the API.
 
 You're good to go!
 
